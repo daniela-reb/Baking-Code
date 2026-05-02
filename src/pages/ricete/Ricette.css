@@ -1,0 +1,40 @@
+.ricette-page {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.ricette-title {
+  color: var(--text-h);
+}
+.letters-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.letters-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--border);
+}
+
+.letter-group {
+  margin-bottom: 40px;
+}
+
+.letter-group h2 {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 5px;
+}
+.letter-group a {
+  text-decoration: none;
+}
+.letter-group ul {
+  list-style: none;
+  padding: 0;
+}
+
+.letter-group li {
+  margin: 8px 0;
+}
