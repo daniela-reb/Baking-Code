@@ -39,8 +39,8 @@ export default {
     {
       name: 'instructions',
       title: 'Instructions',
-      type: 'array',
-      of: [{ type: 'string' }]
+      type: 'text'
+      
     },
     {
       name: 'prepTime',

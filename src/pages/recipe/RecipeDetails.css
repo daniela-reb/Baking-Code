@@ -1,6 +1,8 @@
 .recipe{
  display: flex;   
  margin-top: 3rem;
+ box-sizing: border-box;
+ width: 100vh;
 }
 
 .recipe img{
@@ -60,13 +62,12 @@
   padding: 12px;
   border-radius: 10px;
 }
-.steps {
+.preparation {
 background-color:var(--social-bg);
 border-radius: 10px;
-font-size: 1rem;
 box-sizing: border-box;
-padding-left: 12px;
-margin-bottom: 10px;
+padding: 10px;
+font-size: 0.8rem;
 }
 
 @media (max-width: 768px){
@@ -77,6 +78,22 @@ margin-bottom: 10px;
   .recipe  img{
     width: 80%;
     height: auto;
+    margin-left: 2rem;
+  }
+  .descrizione{
+    width: 90%;
+    margin-right: 1rem;
+  }
+  .preparation{
+    width: 90%;
+    margin-right: 2rem;
+  }
+  .ingredients{
+    width: 90%;
+    margin-right: 1rem;
+  }
+  .ingredienti{
+  text-align: center;
   }
  
 }

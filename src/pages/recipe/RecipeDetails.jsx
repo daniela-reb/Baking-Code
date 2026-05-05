@@ -38,7 +38,7 @@ function RecipeDetails () {
            
              <div className="ingredients">
                 
-                <p>Ingredienti:</p>
+                <p className="ingredienti">Ingredienti:</p>
                 <ul className="ingredients">
                     {recipe.ingredients?.map((ingredient, index) => (
                         <li className="ingredient" key={index}>{ingredient}</li>
@@ -49,12 +49,8 @@ function RecipeDetails () {
              <div className="recipe-details">
             <h2 className="title-recipe">{recipe.title}</h2>
             <p className="descrizione">{recipe.description}</p>
-            <h2 className="title-recipe">Preparation</h2>
-       <ol>
-            {recipe.instructions?.map((step, index) => (
-                <li className="steps" key={index}>{step}</li>
-            ))}
-        </ol>
+            <h3 className="preparazione">Preparazione</h3>
+            <p className="preparation">{recipe.instructions}</p>
             </div>
 
             <div className="recipe-meta">
