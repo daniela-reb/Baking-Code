@@ -68,6 +68,7 @@ border-radius: 10px;
 box-sizing: border-box;
 padding: 10px;
 font-size: 0.8rem;
+white-space: pre-wrap;
 }
 
 @media (max-width: 768px){

@@ -39,11 +39,26 @@ function RecipeDetails () {
              <div className="ingredients">
                 
                 <p className="ingredienti">Ingredienti:</p>
-                <ul className="ingredients">
-                    {recipe.ingredients?.map((ingredient, index) => (
-                        <li className="ingredient" key={index}>{ingredient}</li>
-                    ))}
-                </ul>
+          
+                    {recipe.ingredients?.map((item) => 
+                        item.type === "section" ? (
+                            <h4 
+                            key= {item._key} 
+                            className="ingredient-section"
+                            >
+                                {item.text}
+                                </h4>
+                        ) : (
+                        
+                        <li 
+                        className="ingredient" 
+                        key={item._key}
+                        >
+                            {item.text}
+                        </li>
+                    )
+                    )}
+               
              </div>
 </div>
              <div className="recipe-details">

@@ -34,7 +34,24 @@ export default {
       name: 'ingredients',
       title: 'Ingredients',
       type: 'array',
-      of: [{ type: 'string' }]
+      of: [
+        { 
+          type: 'object',
+          fields: [
+            {
+              name: 'type',
+              type: 'string',
+              options: {
+                list: ['section', 'ingredient']
+                  }
+               },
+               {
+                name: 'text',
+                type: 'string'
+               }
+          ]
+         }
+        ]
     },
     {
       name: 'instructions',
