@@ -19,6 +19,14 @@
     border-radius: 10px;
     font-size: 14px;
     margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+.ingredient:hover{
+   background-color: white;
+   color: black;
+   box-shadow: 1px 1px 5px var(--accent-border);
+   trasform: translateY(-2px);
+   opacity: 0.6;
 }
 .colona{
     display: flex;
