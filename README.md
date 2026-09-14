@@ -1,16 +1,38 @@
-# React + Vite
+# Baking Code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un sito web dedicato alle ricette di dolci, svilupato con React,pensato per presentare le mie ricette di dolci in modo semplice.
 
-Currently, two official plugins are available:
+I contenuti vengono gestiti dinamicamente tramite Sanity CMS che permette di aggiungere facilmente nuove ricette attraverso un panello di amministrazione.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀Funzionalita'
 
-## React Compiler
+- Gestione dinamica delle riette tramite Sanity CMS
+- 🏠 Homepage con un carousel interattivo che mostra tutte le ricette
+- 📖 Pagina "Ricette" con tutte le ricette ordinate alfabeticamente
+- 📩 Pagina "Contatti" con modulo di contatto funzionante, numero di telefono, 📍indirizzo cliccabile con apertura diretta su Google Maps e link ai social
+- Design responsive per dispositivi dektop e mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Link
+[Baking Code](https://baking-code.vercel.app/)
+## Screenshoots
 
-## Expanding the ESLint configuration
+![Home Page](./assets/screenshoots/home.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Recipes Page](./assets/screenshoots/ricette.png)
+
+![Contact Page](./assets/screenshoots/contatti.png)
+## Tecnologie Utilizzate
+
+- React
+- Javascript 
+- Css
+- Sanity CMS
+- HTML
+
+## Miglioramenti Futuri
+
+- Inserire recensioni, commenti e valutazioni degli utenti
+
+## Autore
+
+Rus Daniela Rebeca
